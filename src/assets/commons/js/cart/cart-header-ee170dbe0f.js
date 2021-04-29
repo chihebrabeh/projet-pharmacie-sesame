@@ -1,0 +1,1 @@
+"use strict";new Vue({el:"[data-vue=cart-header]",data:{cart:CartStore.state}});

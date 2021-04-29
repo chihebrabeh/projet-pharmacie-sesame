@@ -1,0 +1,81 @@
+.message{display:none;padding:1em 2em;background-color:#ef6c00;color:#fff;text-align:center;font-weight:bolder}.message--visible{display:block}.message button{margin-left:1em;padding:.5em 1em;border:2px solid #fff;border-radius:3px;background:0 0;color:#fff;font:inherit;cursor:pointer}
+.grid-2 {
+  margin-left: -2.5rem;
+  margin-bottom: -2.5rem;
+}
+.mb3 {
+  margin-bottom: 3rem;
+}
+.mt4 {
+  margin-top: 4rem;
+}
+.btn--big {
+  padding: 1rem 3rem 1.29rem;
+  max-width: 100%;
+  width: 28.4rem;
+  font-size: 1.8rem;
+}
+.btn--primary, .btn--primary:link, .btn--primary:visited {
+  background-color: #f96e53;
+  color: #fff;
+}
+.btn, button, input[type=submit] {
+  display: inline-block;
+  margin: 0;
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: .3rem;
+  background-color: #f96e53;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none!important;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: normal;
+  cursor: pointer;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s;
+}
+.btn, button {
+  vertical-align: middle;
+}
+button, input, select, textarea {
+  font: inherit;
+}
+*, :after, :before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+input {
+  margin: 0;
+  padding: .4em .6em;
+  width: 32rem;
+  border: .1rem solid #9fb6ba;
+  border-radius: 0;
+  background: #fff;
+  color: #37474f;
+  font-size: 1.4rem;
+}
+.label, input, label, select {
+  vertical-align: middle;
+}
+button, input, select, textarea {
+  font: inherit;
+}
+blockquote, code, img, input, pre, table, td, textarea, video {
+  max-width: 100%;
+}
+.mb1{font-size: 1.5rem}
+.label, label {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+

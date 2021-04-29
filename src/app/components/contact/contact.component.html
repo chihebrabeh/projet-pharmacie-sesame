@@ -1,0 +1,155 @@
+
+<main class="contact container pt-section pb-section">
+  <h1 class="visually-hidden">Page de contact</h1>
+  <div class="grid-2-1 grid-1-s">
+    <section class="contact__main">
+      <h2 class="title">Formulaire de contact</h2>
+      <div class="contact-form">
+        <form data-contact-form>
+          <div class="grid-2 grid-1-s">
+            <div class="f-group">
+              <label for="first_name">Prénom</label>
+              <input class="f-100" type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="f-group">
+              <label for="last_name">Nom</label>
+              <input class="f-100" type="text" id="last_name" name="last_name" required>
+            </div>
+            <div class="f-group">
+              <label for="email">Adresse e-mail</label>
+              <input type="text" id="email" name="email" required>
+            </div>
+            <div class="f-group">
+              <label for="phone">Numéro de téléphone (facultatif)</label>
+              <input type="text" id="phone" name="phone">
+            </div>
+          </div>
+          <div class="mb3 mt4">
+            <label for="message">Message</label>
+            <textarea class="f-100" name="message" id="message" rows="8" cols="80" required></textarea>
+          </div>
+          <button class="btn btn--primary btn--big" type="submit">Envoyer le message</button>
+        </form>
+      </div>
+    </section>
+    <aside class="contact-aside">
+      <div class="mb4">
+        <h2 class="title">Nos coordonnées</h2>
+        <div class="mt1 mb1">
+          <div>
+            <div class="mb1 uppercase bold">Pharmacie En ligne</div>
+            <div>8 Rue Habib Borguiba Tunis</div>
+            <span>10000</span>
+            <span>Tunis</span>
+          </div>
+
+          <div>Tél. +216 26 037 015</div>
+
+        </div>
+      </div>
+      <hr />
+      <div class="openingTime mt1">
+        <h2 class="title">Horaires d'ouverture</h2>
+        <div class="mt1">
+          <div class="openingTime__infoMessage" data-opening-hours></div>
+          <table class="openingTime__table table--separate table--invisible">
+            <tr data-opening-hours-day="1" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Monday" />
+              <th>
+                <strong>Lundi</strong>
+              </th>
+              <td>
+
+                <time itemprop="opens" datetime="08:00">08:00</time>-<time itemprop="closes" datetime="12:00">12:00</time>
+
+
+              </td>
+            </tr>
+
+            <tr data-opening-hours-day="2" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Tuesday" />
+              <th>
+                <strong>Mardi</strong>
+              </th>
+              <td>
+
+                <time itemprop="opens" datetime="08:00">08:00</time>-<time itemprop="closes" datetime="19:00">19:00</time>
+
+
+              </td>
+            </tr>
+
+            <tr data-opening-hours-day="3" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Wednesday" />
+              <th>
+                <strong>Mercredi</strong>
+              </th>
+              <td>
+
+                <time itemprop="opens" datetime="08:00">08:00</time>-<time itemprop="closes" datetime="12:00">12:00</time>
+
+                et <time itemprop="opens" datetime="14:00">14:00</time>-<time itemprop="closes" datetime="19:00">19:00</time>
+
+
+              </td>
+            </tr>
+
+            <tr data-opening-hours-day="4" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Thursday" />
+              <th>
+                <strong>Jeudi</strong>
+              </th>
+              <td>
+
+                <time itemprop="opens" datetime="08:00">08:00</time>-<time itemprop="closes" datetime="19:00">19:00</time>
+
+
+              </td>
+            </tr>
+
+            <tr data-opening-hours-day="5" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Friday" />
+              <th>
+                <strong>Vendredi</strong>
+              </th>
+              <td>
+
+                <time itemprop="opens" datetime="08:00">08:00</time>-<time itemprop="closes" datetime="19:00">19:00</time>
+
+
+              </td>
+            </tr>
+
+            <tr data-opening-hours-day="6" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Saturday" />
+              <th>
+                <strong>Samedi</strong>
+              </th>
+              <td>
+
+                <time itemprop="opens" datetime="08:00">08:00</time>-<time itemprop="closes" datetime="12:00">12:00</time>
+
+                et <time itemprop="opens" datetime="14:00">14:00</time>-<time itemprop="closes" datetime="19:00">19:00</time>
+
+
+              </td>
+            </tr>
+
+            <tr data-opening-hours-day="7" itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+              <meta itemprop="dayOfWeek" href="http://schema.org/Sunday" />
+              <th>
+                <strong>Dimanche</strong>
+              </th>
+              <td>
+
+                Fermé
+
+              </td>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>

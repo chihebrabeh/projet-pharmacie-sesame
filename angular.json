@@ -49,6 +49,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -144,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "projet-pharmacie-sesame"
+    }
+  },
+  "defaultProject": "projet-pharmacie-sesame",
+  "cli": {
+    "analytics": "1bb8cddb-61a4-4c0e-8939-43622887caa3"
+  }
 }
